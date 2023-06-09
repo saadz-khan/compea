@@ -14,7 +14,7 @@ The Generation Node is a crucial part of the intelligent home solar system proje
 
 ### Diagrams
 ![Circuit Diagram](../../assets/generation_node.jpg)
-![Picture](../../assets/generation_node_actual.png)
+![Picture](../../assets/generation_node_actual.jpg)
 
 ##  Libraries Used
 - SPI.h: This library allows Arduino boards to communicate with SPI devices. It is used to interface with the NRF24L01 wireless transceiver module.

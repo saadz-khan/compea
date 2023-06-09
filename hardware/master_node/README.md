@@ -10,7 +10,7 @@ The Master Node, also known as the Primary Node, plays a pivotal role in the int
 
 ### Diagrams
 ![Circuit Diagram](../../assets/master_node.jpg)
-![Picture](../../assets/master_node_actual.png)
+![Picture](../../assets/master_node_actual.jpg)
 
 ### Libraries Used
 - FirebaseESP8266.h: This library allows the ESP8266 to communicate with Firebase, a Google cloud service that provides a real-time database for storing and syncing data across multiple platforms.

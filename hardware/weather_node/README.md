@@ -14,7 +14,7 @@ BH-1750 Digital Light Sensor: This sensor measures solar irradiation. It uses th
 
 ### Diagrams
 ![Circuit Diagram](../../assets/weather_node.jpg)
-![Picture](../../assets/weather_node_actual.png)
+![Picture](../../assets/weather_node_actual.jpg)
 
 ### I2C Protocol
 The I2C protocol is a serial communication protocol used in embedded systems like microcontrollers and sensors. It is a multi-master, multi-slave protocol that allows several devices to communicate on the same bus. The I2C protocol typically communicates via two wires:
