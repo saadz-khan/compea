@@ -47,6 +47,10 @@ The hardware component of this project involves the use of Arduino and ESP based
 
 - Master Node: Receives the data transmitted from both the Weather Node and the Generation Node. It uses an ESP8266 Wi-Fi microcontroller to process and structure the received data, and an NRF-24L01 wireless transceiver module to receive data from the secondary nodes. The processed data is then uploaded to a Firebase real-time database.
 
+- Loadshedding Node: Monitors the loadshedding schedules and notifies the system about the scheduled power outages. It uses an RTC module to keep track of time, an Arduino Nano microcontroller board to process the schedule data, and an NRF-24L01 wireless transceiver module to send the schedule information to the Master Node.
+
+With the addition of the Loadshedding Node, the system can consider the scheduled power outages and optimize energy usage accordingly, ensuring efficient utilization of available power during loadshedding periods.
+
 ### Software
 The software component of this project involves the use of machine learning techniques to predict future power generation and consumption patterns. It is divided into four main parts:
 
