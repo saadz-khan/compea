@@ -4,7 +4,8 @@ Cognitive Power Metering and Predictions using Edge AI - Final Year Project (FYP
 ### Overview
 This project proposes an intelligent home solar system that uses machine learning techniques to predict future power generation and consumption in households. The system aims to optimize energy usage and reduce reliance on traditional power sources, leading to cost savings and decreased environmental impact. The system incorporates various sensors and meters to collect data on solar energy generation and weather conditions. This data is then fed into a machine learning algorithm to predict future power generation patterns depending on the weather conditions. The project implements a web-based interface that allows users to monitor their energy usage and control the system remotely. Results from the implementation of the system show an accuracy rate of over 90% in predicting power generation and consumption, leading to an improvement in overall energy efficiency.
 
-<iframe src="https://docs.google.com/gview?url=https://github.com/saadz-khan/compea/blob/master/assets/poster.pdf&embedded=true" width="100%" height="600px"></iframe>
+### Project Poster
+![Project Poster](./assets/poster.jpg)
 
 The project is divided into two main components: Hardware and Software.
 
