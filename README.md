@@ -4,6 +4,11 @@ Cognitive Power Metering and Predictions using Edge AI - Final Year Project (FYP
 ### Overview
 This project proposes an intelligent home solar system that uses machine learning techniques to predict future power generation and consumption in households. The system aims to optimize energy usage and reduce reliance on traditional power sources, leading to cost savings and decreased environmental impact. The system incorporates various sensors and meters to collect data on solar energy generation and weather conditions. This data is then fed into a machine learning algorithm to predict future power generation patterns depending on the weather conditions. The project implements a web-based interface that allows users to monitor their energy usage and control the system remotely. Results from the implementation of the system show an accuracy rate of over 90% in predicting power generation and consumption, leading to an improvement in overall energy efficiency.
 
+![Project Poster](./assets/poster.pdf)
+![Project Report](./assets/report.pdf)
+![Project Presentation](./assets/presentation.pdf)
+
+
 The project is divided into two main components: Hardware and Software.
 
 ### File Structure
@@ -54,7 +59,7 @@ The Auto-forecasting pipeline predicts the daily yield of a solar power plant. I
 The Consumption pipeline forecasts electrical power consumption using a Long Short-Term Memory (LSTM) neural network and an AutoRegressive Integrated Moving Average (ARIMA) model. The pipeline is designed to download and preprocess the data, train and evaluate the models, and upload the results to Firebase. For more details, refer to the README.md file in the consumption-pipeline directory.
 
 #### Solar Power Dashboard
-The Solar Power Dashboard is a web-based interface that allows users to monitor their energy usage and control the system remotely. It is built with React.js and has a backend on Firebase. The dashboard displays real-time data on power generation and consumption, as well as predictions for future energy usage. For more details, refer to the README.md file in the solar-power-dashboard directory.
+The Solar Power Dashboard is a web-based interface that allows users to monitor their energy usage and control the system remotely. It is built with React.js and has a backend on Firebase. The dashboard displays real-time data on power generation and consumption, as well as predictions for future energy usage. For more details, refer to the README.md file in the solar_power-dashboard directory.
 
 #### Quantum Machine Learning
 The Quantum Machine Learning work is a future work for the LSTM based forecasting. It is currently under development and aims to enhance the accuracy and efficiency of the forecasting models using quantum computing techniques. For more details, refer to the README.md file in the quantum-machine-learning directory.
