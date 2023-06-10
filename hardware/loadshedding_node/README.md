@@ -14,7 +14,7 @@ The Load Shedding Node is a critical component of the intelligent home solar sys
 - Strip Connector, Wires, and 9x15 cm Vero Board: These are used for the physical connections between the components.
 
 ### Diagrams
-![Picture](../../assets/loadshedding_node.jpg)
+![Picture](../../assets/loadshedding_node_actual.jpg)
 
 ### Load Shedding Algorithm and Implementation
 1. Initialize: Connect to the Firebase database and retrieve the real-time power generation data.
